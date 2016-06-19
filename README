@@ -1,0 +1,78 @@
+AudioDancer v1.0
+written by Steve Sprang
+
+October 14, 1996
+
+About AudioDancer
+=================
+
+AudioDancer is a silly little program I wrote to experiment with 
+BAudioSubscribers. It attempts to display audio information (presumably
+from the CD player) in interesting ways.
+
+AudioDancer is freeware.
+
+
+*** BUG! ***
+============
+
+AudioDancer won't quit. It appears to quit, but it never disappears from the
+app menu. If you can figure out why please let me know.
+
+
+Using AudioDancer
+=================
+
+AudioDancer currently provides four viewing methods
+
+1) Waves
+	- displays each data buffer as a wave
+2) Lines
+	- displays each data buffer as a blob of lines
+3) Static
+	- displays a bitmap containing the bits from the data buffer
+4) Dancers
+	- dancing balls whose behavior is controlled by data buffers
+	
+It's important to note that the Lines and Dancers display modes
+were stumbled upon by trial and error. I was looking for interesting
+images, and the current functions were the ones I decided upon. I really
+was unsure of what meant what in the data buffer so I just experimented.
+
+
+Recommended Listening
+=====================
+
+The coolest thing I've seen so far was in Dancer mode listening to
+Jethro Tull's Aqualung. Particularly "Wond'ring Around" (Track 5) is
+interesting. Be sure to reset the dancers (Alt-D) before starting the
+track. Also, keep your load to a minimum when playing with AudioDancer
+because it's much less interesting when it drops buffers.
+
+
+Distribution
+============
+
+Feel free to distribute AudioDancer in any way that you can. I only ask that
+this README file is always included with the executable, and that you're
+not bundling AudioDancer with something else as a purchase incentive.
+
+If you make any changes to the source code, please DO NOT distribute it
+without first contacting me.
+
+
+Contact Info
+============
+
+Email:  sprang@andrew.cmu.edu
+		ssprang@cs.cmu.edu
+		
+Permanent Address:
+
+		Steve Sprang
+		141 State Route 603
+		Shiloh, OH 44878
+		
+WWW: http://www.andrew.cmu.edu/user/sprang
+
+Enjoy!
